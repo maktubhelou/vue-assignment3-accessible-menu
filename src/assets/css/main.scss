@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'calibri', sans-serif;
+    font-family: 'Avenir', sans-serif;
 }
 
 h1 {
@@ -49,7 +49,7 @@ nav ul {
 .access-menu a {
     color: #eee;
     display: block;
-    padding: .5em 2em;
+    padding: .5em 1em;
     text-decoration: none;
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
@@ -83,11 +83,11 @@ nav ul {
     }
 }
 
-.access-submenu>li+li {
+.access-submenu>a+a {
     border-top: solid 1px #fff;
 }
 
-.access-submenu>li :last-child {
+.access-submenu>a {
     border-bottom: solid 2px #000;
 }
 

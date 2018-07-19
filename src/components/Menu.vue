@@ -6,7 +6,7 @@
             <li v-for="(value, key) in menu" :key="key">
                 <a href="#" v-shortkey.focus="[value.shortcut]">{{ key }}</a>
                 <ul class="access-submenu">
-                  <li v-for="item in value.items" :key="item" href="#"><a> {{item}} </a></li>
+                  <a v-for="item in value.items" :key="item" href="#"><li> {{item}} </li></a>
                 </ul>
             </li>
         </ul>
