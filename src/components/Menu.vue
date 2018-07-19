@@ -4,7 +4,7 @@
     <nav role="navigation">
         <ul class="access-menu">
             <li>
-                <a href="#">Womens</a>
+                <a href="#" v-shortkey.focus="[1]">Womens</a>
                 <ul class="access-submenu">
                     <li><a href="#">Featured</a></li>
                     <li><a href="#">Shoes</a></li>
@@ -15,7 +15,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">Mens</a>
+                <a href="#" v-shortkey.focus="[2]">Mens</a>
                 <ul class="access-submenu">
                     <li><a href="#">Featured</a></li>
                     <li><a href="#">Shoes</a></li>
@@ -26,7 +26,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">Kids</a>
+                <a href="#" v-shortkey.focus="[3]">Kids</a>
                 <ul class="access-submenu">
                     <li><a href="#">Featured</a></li>
                     <li><a href="#">Boys</a></li>
@@ -36,7 +36,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">Sale</a>
+                <a href="#" v-shortkey.focus="[4]">Sale</a>
                 <ul class="access-submenu">
                     <li><a href="#">Men's Sale</a></li>
                     <li><a href="#">Women's Sale</a></li>
@@ -51,12 +51,7 @@
 
 <script>
 export default {
-  name: 'Menu',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
+  name: 'Menu'
 }
 </script>
 

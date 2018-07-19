@@ -14,3 +14,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+Vue.use(require('vue-shortkey'))

@@ -65,8 +65,8 @@ nav ul {
     display: none;
 }
 
-.access-menu li:hover .access-submenu,
-.access-menu li:focus .access-submenu {
+.access-menu li:hover > .access-submenu,
+.access-menu li:focus-within > .access-submenu {
     display: block;
 }
 
