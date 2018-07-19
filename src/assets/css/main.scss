@@ -1,3 +1,9 @@
+:root {
+    --menu-bg-color: #333;
+    --menu-hover-color: #186ad4;
+    --menu-bar-inner-border: #fff;
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -31,13 +37,13 @@ nav ul {
 }
 
 .access-menu>li {
-    background: #333;
+    background: var(--menu-bg-color);
     display: inline-block;
     position: relative;
 }
 
 .access-menu>li+li {
-    border-left: solid 1px #000;
+    border-left: solid 1px var(--menu-bar-inner-border);
 }
 
 .access-menu a {
@@ -52,7 +58,7 @@ nav ul {
     transition: all .2s linear;
     &:hover,
     &:focus {
-        background-color: #186ad4;
+        background-color: var(--menu-hover-color);
     }
 }
 
@@ -71,17 +77,18 @@ nav ul {
 }
 
 .access-submenu li {
+    cursor: pointer;
     &:hover {
-        background: #186ad4;
+        background: var(--menu-hover-color);
     }
 }
 
 .access-submenu>li+li {
-    border-top: solid 1px #000;
+    border-top: solid 1px #fff;
 }
 
 .access-submenu>li :last-child {
-    border-bottom: solid 3px #000;
+    border-bottom: solid 2px #000;
 }
 
 .access-submenu a {
