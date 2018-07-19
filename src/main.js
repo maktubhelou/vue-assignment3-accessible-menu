@@ -8,6 +8,7 @@ import '@/assets/css/main.scss'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
+Vue.use(require('vue-shortkey'))
 
 new Vue({
   el: '#app',
@@ -15,5 +16,3 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
-
-Vue.use(require('vue-shortkey'))
