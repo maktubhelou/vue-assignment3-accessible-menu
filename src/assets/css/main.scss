@@ -34,9 +34,6 @@ nav ul {
     background: #333;
     display: inline-block;
     position: relative;
-    &:hover {
-        background: #666;
-    }
 }
 
 .access-menu>li+li {
@@ -53,6 +50,10 @@ nav ul {
     -ms-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
+    &:hover,
+    &:focus {
+        background-color: #666;
+    }
 }
 
 .access-submenu {
