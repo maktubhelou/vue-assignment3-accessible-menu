@@ -37,6 +37,8 @@ export default {
             'Featured',
             'Shoes',
             'Clothing',
+            'Business',
+            'Casual',
             'Accessories',
             'Sports',
             'Sale'
